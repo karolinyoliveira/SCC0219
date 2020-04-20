@@ -1,0 +1,71 @@
+
+p{
+	font-family: Arial;
+	font-size: 14pt;
+	color: red;
+	text-align: right;
+}
+
+h1{
+	color: blue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+img{
+	border: 3px dashed #000000;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top:20px;
+  	margin-bottom:20px;
+}
+
+.center{
+	text-align: center;
+}
+
+#gpu_1{
+	height:200px;
+	width: 200px;
+}
+
+#headphone_1{
+	height:200px;
+	width: 200px;
+}
+
+#mousepad_1{
+	height:200px;
+	width: 200px;
+}
+
+footer{
+	font-size: 100%;
+	position: relative;
+  	bottom: 0px;
+  	padding: 2px;
+  	border: 1px solid #000000;
+}
