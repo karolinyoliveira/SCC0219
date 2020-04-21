@@ -82,8 +82,12 @@ ul{
 
 #corpo{
 	background: #AAAAAA;
-	height: 500px;
+	height: 100%;
 	margin: 10px;
+}
+
+#conteudo img {
+	width: 90%
 }
 
 footer{
