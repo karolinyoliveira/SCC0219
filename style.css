@@ -19,10 +19,12 @@ header{
 }
 
 #menu_lateral{
+	font-size: 0.8vw; /* unidade responsiva */
 	background: #AA6622;
 	float: left;
 	height: 100%;
-	width: 100px;
+	width: 150px;
+	margin:left;
 }
 
 ul{
@@ -51,13 +53,20 @@ ul{
 
 #menu_lateral li a:hover{
 	background: #111111;
+	margin: auto;
 }
 
 #menu_lateral li{
 	float: bottom;
 }
 
+#menu_lateral ul, li{
+	margin: 0; padding: 0; /* ul e li tem alinhamentos default, precisamos zerá-los */
+}
+
+
 #menu_lateral li a{
+	text-align: center;
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
@@ -65,12 +74,17 @@ ul{
 	display: block;
 	padding: 20px 10px;
 	border: solid 2px black;
-	margin: -2px;
-/*	border-top: none;*/
+	border: -2px;
 }
 
 #corpo{
 	background: #AAAAAA;
 	height: 500px;
 	margin: 10px;
+}
+
+footer{
+	font-weight: bold;
+	text-align: center;
+	background-color: #444444;
 }
