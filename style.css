@@ -90,6 +90,11 @@ ul{
 	width: 90%
 }
 
+#conteudo a {
+	text-decoration:none;
+	color: black;
+}
+
 footer{
 	font-weight: bold;
 	text-align: center;
