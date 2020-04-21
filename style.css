@@ -5,6 +5,7 @@
 }
 
 header{
+	font-size: 9.8vw;
 	background: #aaaaaa;
 	height: 150px;
 	margin: 0px;
@@ -41,7 +42,7 @@ ul{
 	text-decoration: none;
 	list-style-type: none;
 	display: block;
-	padding: 20px 40px;
+	padding: 2.8vh 2.8vw;
 	border: solid 2px black;
 	margin-left: -2px;
 
