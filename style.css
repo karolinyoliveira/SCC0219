@@ -50,11 +50,13 @@ ul{
 
 #menu_superior li a:hover{
 	background: #111111;
+	color: #FFF;
 }
 
 #menu_lateral li a:hover{
 	background: #111111;
 	margin: auto;
+	color: #FFF;
 }
 
 #menu_lateral li{
