@@ -10,6 +10,7 @@ header{
 	height: 150px;
 	margin: 0px;
 	border-style: dotted;
+	align-items: center;
 }
 
 ul{
@@ -119,4 +120,13 @@ figure {
 
 figcaption {
 	font-size: 20px;
+}
+
+#logo{
+	margin-left:2vw;
+	margin-right:2vw; 
+	margin-top:2vw;
+	margin-top:1vw; 	
+	max-width: 10%;
+	float:left;
 }
